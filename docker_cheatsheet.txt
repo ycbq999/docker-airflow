@@ -1,0 +1,16 @@
+# check docker images
+    docker images
+
+# Check docker containers
+    docker ps 
+
+# check docker all containers including thos that are stopped
+
+    docker ps -a
+
+# run docker compose file
+    docker-compose -f docker-compose-LocalExecutor.yml up -d
+
+# stop docker compose and remove containers
+    docker-compose -f docker-compose-LocalExecutor.yml down
+
